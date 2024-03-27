@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Resto</title>
+<body>
+
+
+<section class="menu" id="menu">
+    <div class="titre">
+        <h2 class="titre-texte"><span>L</span>ecture</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. </p>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div  class="imbox">
+                <img src="./images/jardin.png" alt="">
+
+            </div>
+            <div class="text">
+                <h3>Special salade</h3>
+                <div class="titre">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt         . </p>
+                </div>
+            </div>
+        
+            <div>
+                
+                <p>Exercice 1
+                    1. Affectez les variables temps et distance par les valeurs 6.892 et 19.7. Calculez et affichez la valeur de 
+                    la vitesse. Améliorez l’affichage en imposant un chiffre après le point décimal.
+                    2. Saisir un nom et un âge en utilisant l’instruction input(). Les afficher. Refaire la saisie du nom, mais 
+                    avec l’instruction raw_input(). L’afficher. Enfin, utilisez la « bonne pratique » : recommencez l’exercice 
+                    en transtypant les saisies effectuées avec l’instruction raw_input()
+                    Exercice 2
+                    1. Saisissez un flottant. S’il est positif ou nul, affichez sa racine, sinon affichez un message d’erreur.
+                    2. L’ordre lexicographique est celui du dictionnaire. Saisir deux mots, comparez-les pour trouver le « plus 
+                    petit » et affichez le résultat. Refaire l’exercice en utilisant l’instruction ternaire. 
+                    3. On désire sécuriser une enceinte pressurisée. On se fixe une pression seuil et un volume seuil : pSeuil = 
+                    2.3, vSeuil = 7.41. On demande de saisir la pression et le volume courant de l’enceinte et d’écrire un 
+                    script qui simule le comportement suivant :
+                     si le volume et la pression sont supérieurs aux seuils : arrêt immédiat ;
+                     si seule la pression est supérieure à la pression seuil : demander d’augmenter le volume de l’enceinte; 
+                     si seul le volume est supérieur au volume seuil : demander de diminuer le volume de l’enceinte 
+                     sinon déclarer que « tout va bien ». 
+                    Ce comportement sera implémenté par une alternative multiple.
+                </p>
+                
+
+                    <p>
+                        La clause else des boucles. Dans cet exercice, effectuez les saisies avec des integerbox et les affichages avec des 
+                        msgbox, tous deux appartenant au module easygui. Initialisez une liste avec 5 entiers de votre choix puis saisissez 
+                        un entier. Dans une boucle for, parcourez la liste. Si l’entier saisie appartient à la liste, sauvez-le et interrompez 
+                        la boucle (puisque vous l’avez trouvé). Si la boucle s’est bien terminée, utilisez une clause else pour afficher un 
+
+                        Indication : utilisez deux boucles for imbriquées.
+                        Ex
+                        Ecrire un programmequi affecte une valeur à un taux de TVA, une valeur à un montant TTC puis calculent le 
+                        montant HT correspondant.
+                        Exercice 25
+                        Ecrivez un programme qui permet à l'utilisateur de saisir un nombre, puis affiche si le nombre est pair ou impair.
+                        Exercice 26 
+                        Généralisez l'exercice précédent : saisir un nombre entier P et un nombre entier Q pour dire si Q divise P ou non.
+                        Exercice 27 
+                        Ecrire un programme qui permet à l'utilisateur de saisir un nombre entier, puis affiche ses diviseurs        . 
+                    </p>
+              </p>
+
+        
+                
+                </div>
+            </div>
+        
+</section>
+
+
+ <script type="text/javascript">
+     window.addEventListener('scroll', function(){
+         const header =document.querySelector('header');
+         header.classList.toggle("sticky", window.scrollY > 0 );
+     });
+
+     function toggleMenu(){
+         const tmenuToggle = document.querySelector('.menuToggle');
+         const navbar = document.querySelector('.navbar');
+         navbar.classList.toggle('active');
+         menuToggle.classList.toggle('active');
+     }
+ </script>
+</body>
+</html>

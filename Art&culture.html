@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorie divertissement</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+   
+    <link rel="stylesheet" href="css.css">
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   
+<body>
+
+    <header>
+        <nav id="nv">
+          <div class="nav-main">
+              <div class="nav-header">
+                  <img class="logo" src="./image/ll.png">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+              </div>
+              <ul class="menu" id="mu">
+                  <li>
+                      <a href="index.html">ACCUEIL</a>
+                  </li>
+                  <li>
+                      <a href="Categorie.html">CATEGORIES</a>
+                      <ul class="sousmenu">
+                        <li>
+                          <a href="Divertissement.html">Divertissement</a>
+                        </li>
+                        <li>
+                          <a href="Utilitaire.html">Utilitaires</a>
+                        </li>
+                        <li>
+                          <a href="Art&culture.html">Art et culture</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="Apropos.html">A PROPOS</a>
+                  </li>
+                  <li>
+                    <a href="dash_user.html">Compte</a>
+                </li>
+                <li>
+                    
+               
+                    <a href="connexion.html">  <img class="deco" src="./image/Deconnexion.png" alt=""> </a>
+                </li>
+            </ul>
+              
+          </div>
+         
+      </nav>
+    </header>
+
+  
+  
+<section class="cmenu" id="cmenu">
+    <div class="titre">
+        <!-- <h2 class="title">categories Divertissement</h2> -->
+        <h2 class="titre-texte"><span>C</span>ategories   <span>A</span>rt   &  <span>C</span>ulture</h2>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img  class= "m" src="./image/quiz-nouvelle-version-2020.jpg" alt="none">
+            </div>
+            <div class="text">
+                <h3>Quizz</h3>
+                <div class="titre">
+                    <p>Repondre à des questions éducatives et apprenez en plus sur la culture génèrale et urbaine.</p>
+                </div>
+            </div>
+            <div class="titre">
+                <a href="./Nos mini-projet/" class="btn1">Lire</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img class="cita" src="./image/citation_populaire.jpeg" alt="">
+            </div>
+            <div class="text">
+                <h3>CITATIONS POPULAIRES</h3>
+                    <div class="titre">
+                    <p>Profiter des proverbes et citations des temps  illlustres et modernes  </p>
+                </div>
+            </div>
+            <div class="titre">
+                <a href="./Nos mini-projet/Generateur de citations/index.html" class="btn1">Lire</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img class= "livre"src="./image/lecture.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>LECTURE</h3>
+                    <div class="titre">
+                    <p>Decouvrir notre espace de lecture</p>
+                </div>
+            </div>
+            <div class="titre">
+                <a href="#" class="btn1">Lire</a>
+            </div>
+        </div>
+        
+        
+    </div>
+ </div>
+ 
+</section>
+
+ <script type="text/javascript">
+     window.addEventListener('scroll', function(){
+         const header =document.querySelector('header');
+         header.classList.toggle("sticky", window.scrollY > 0 );
+     });
+
+     function toggleMenu(){
+         const tmenuToggle = document.querySelector('.menuToggle');
+         const navbar = document.querySelector('.navbar');
+         navbar.classList.toggle('active');
+         menuToggle.classList.toggle('active');
+     }
+ </script>
+ <script src="script.js"></script>
+</body>
+</html>

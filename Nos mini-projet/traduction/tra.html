@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Traducteur</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>Traducteur</h1>
+      <input type="text" id="inputText">
+      <select id="languageSelect">
+        <option value="fr">Français</option>
+        <option value="en">Anglais</option>
+        <option value="de">Allemand</option>
+        <option value="de">Espagnole</option>
+      </select>
+
+
+      <button id="translateBtn">Traduire</button>
+      
+    </div>
+    <style>
+  .translation-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+</style>
+
+<div class="translation-container">
+  <p id="output"></p>
+</div>
+    <script src="app.js"></script>
+  </body>
+</html>

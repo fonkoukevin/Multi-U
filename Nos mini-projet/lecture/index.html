@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Resto</title>
+<body>
+
+
+<section class="menu" id="menu">
+    <div class="titre">
+        <h2 class="titre-texte"><span>M</span>enu</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. </p>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/jardin.png" alt="">
+            </div>
+            <div class="text">
+                <h3>Special salade</h3>
+                <div class="titre">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt         . </p>
+                </div>
+            </div>
+            <div class="titre">
+                <a href="#" class="btn1">Lire</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/lulu.png" alt="">
+            </div>
+            <div class="text">
+                <h3>Special salade</h3>
+                    <div class="titre">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt         . </p>
+                </div>
+            </div>
+            <div class="titre">
+                <a href="#" class="btn1">Lire</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/pere.png" alt="">
+            </div>
+            <div class="text">
+                <h3>Special salade</h3>
+            </div>
+            <div class="titre">
+                <a href="#" class="btn1">Lire</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/pouvoir.png" alt="">
+            </div>
+            <div class="text">
+                <h3>Special salade</h3>
+            </div>
+            <div class="titre">
+                <a href="#" class="btn1">Lire</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/tomtom.png" alt="">
+            </div>
+            <div class="text">
+                <h3>Special salade</h3>
+            </div>
+            <div class="titre">
+                <a href="#" class="btn1">Lire</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/brume.png" alt="">
+            </div>
+            <div class="text">
+                <h3>Special salade</h3>
+            </div>
+            <div class="titre">
+                <a href="#" class="btn1">Lire</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/alice.png" alt="">
+            </div>
+            <div class="text">
+                <h3>Special salade</h3>
+            </div>
+            <div class="titre">
+                <a href="#" class="btn1">Lire</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/price.png" alt="">
+            </div>
+            <div class="text">
+                <h3>Special salade</h3>
+            </div>
+            <div class="titre">
+                <a href="#" class="btn1">Lire</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div class="titre">
+    <a href="#" class="btn1">Voir Plus</a>
+ </div>
+</section>
+
+ <script type="text/javascript">
+     window.addEventListener('scroll', function(){
+         const header =document.querySelector('header');
+         header.classList.toggle("sticky", window.scrollY > 0 );
+     });
+
+     function toggleMenu(){
+         const tmenuToggle = document.querySelector('.menuToggle');
+         const navbar = document.querySelector('.navbar');
+         navbar.classList.toggle('active');
+         menuToggle.classList.toggle('active');
+     }
+ </script>
+</body>
+</html>

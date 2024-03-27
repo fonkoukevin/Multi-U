@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: url(nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image{
+    
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        background: url(nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    
+}
+
+.menu {
+    height: 60px;
+    list-style: none;
+    padding-left: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin: 40px;
+}
+
+.menu li {
+    float: left;
+    width: 160px;
+    
+}
+
+.menu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    /* background: #293245; */
+    padding: 6px 10px;
+    /* border-right: 1px solid #FFF; */
+    text-align: center;
+    text-decoration: none;
+}
+
+/* .menu li a:hover {background-color: #199BD2;}
+.menu li a:active {background-color: #808080;} */
+
+.menu .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.menu .sousmenu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    /* border-top: 1px solid transparent;
+    border-right: 1px solid transparent; */
+}
+
+.menu .sousmenu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    /* background-color: #808080; */
+}
+
+.menu .sousmenu li a:hover {
+    /* background-color: #199BD2; */
+}
+
+.menu li:hover .sousmenu {
+    display: block;
+}
+li{
+    width: 650px;
+}
+
+.banner {
+	
+	height: 100vh;
+	display: flex;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-size: cover;
+	background-position: center center;
+}
+.content h2 {
+	color: #000;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 42px;
+}
+.content h2 span {
+	color: #2ebd94;
+}
+.content p {
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: 500;
+}
+.content a {
+	background: #2ebd94;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 25px;
+	display: inline-block;
+	margin-top: 25px;
+}
